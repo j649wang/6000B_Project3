@@ -1,16 +1,4 @@
 # 6000B_Project3
-Task 1: Multi-instance classification
-
-Each medical image has much higher resolution than natural images, so it is hard to store such big feature mappings in the GPU. Since resizing the image may lose some important details, you need to devide the image into many patches. By regarding each patch as a instance, you can use image-level labels to conduct deep multi-instance learning.
-
-Only the Dataset_A is used in this task.
-
-Except downsampling the images, any additional pre- or post-processing on the training set is allowed.
-
-Suggested reference: Patch-based Convolutional Neural Network for Whole Slide Tissue Image Classification, CVPR 2016.
-
-Coupon will be given if you improve the mentioned method or develop your own solution.
-
 Task 2: Domain Adaptation.
 
 Different x-ray devices have different image qualities and resolutions. Therefore, the model trained on the dataset from one device may fail to predict on the dataset from another device. In this situation, domain adaptation helps address the problem of differences between the two datasets.
