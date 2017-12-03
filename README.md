@@ -1,5 +1,5 @@
 # 6000B_Project3
-Task 2: Domain Adaptation.
+Task 3: Domain Adaptation.
 
 Different x-ray devices have different image qualities and resolutions. Therefore, the model trained on the dataset from one device may fail to predict on the dataset from another device. In this situation, domain adaptation helps address the problem of differences between the two datasets.
 
